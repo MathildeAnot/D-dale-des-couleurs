@@ -7,7 +7,7 @@
 
 .presentation{
     background-image: url("/images/impressionnisme-soleil-levant-monet-the-art-cycle-1148x708.jpg");
-
+background-size: cover;
 }
 .navigation{
     background-color: #efd858;
@@ -136,4 +136,32 @@ justify-content: center;
 .photo-portrait-md{
     width: 50%;
     
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.mail{
+width: 600px;
+height: 40px;
+text-align: center;
+background-color: rgb(204, 204, 204);
+border: none;
+}
+.inscription{
+width: 600px;
+height: 40px;
+background-color: #efd858;
+font-size: 25px;
+border: none;
+}
+.infos-contact{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px;
 }
