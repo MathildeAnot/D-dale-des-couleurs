@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.presentation{
+    background-image: url("/images/impressionnisme-soleil-levant-monet-the-art-cycle-1148x708.jpg");
+
+}
+.navigation{
+    background-color: #efd858;
+width: fit-content ;
+display: flex;
+align-items: center;
+gap: 25px;
+padding:0 25px;
+margin-top: 15px;
+}
+.logo{
+    height: 68px;
+}
+.liens{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+
+
+}
+.nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.info-galerie{
+    display: flex;
+margin-top: 170px;
+}
+.info-galerie-left{
+    width: 50%;
+    text-align: center;
+}
+.info-galerie-right{
+    width: 50%;
+    text-align: center;
+}
