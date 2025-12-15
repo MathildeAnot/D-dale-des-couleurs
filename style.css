@@ -68,3 +68,72 @@ justify-content: center;
     width: 60%;
     
 }
+.oeuvres-page{
+    
+}
+.oeuvres-titre{
+    background-color: #efd858;
+    margin: 25px 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.vignette{
+    
+    height: 300px;
+    width: 250px;
+    display: flex;
+    align-items: end;
+
+}
+.photos-oeuvres{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 45px;
+}
+.elisabeth-bergner{
+    background-image: url("images/Elisabeth\ Bergner\ Portrait\ Emil\ Orlik.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.jozef-rippl-ronai{
+    background-image: url("images/La\ femme\ au\ voile\ noire\ Jozsef\ Rippl\ Ronai.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.knud-erik{
+    background-image: url("images/La\ femme\ cousant\ a\ la\ fenetre\ Knud\ Erik\ .png");
+    background-size: cover;
+    background-position: center;
+
+}
+.nom-peintre{
+    background-color: #efd858;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.presentation-dechewsky-photo{
+    display: flex;
+    padding: 50px;
+    
+}
+.photo-dechewsky{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.presentation-dechewsky{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.photo-portrait-md{
+    width: 50%;
+    
+}
