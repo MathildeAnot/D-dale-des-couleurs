@@ -123,7 +123,8 @@ justify-content: center;
     
 }
 .photo-dechewsky{
-    width: 50%;
+    width: 70%;
+    height: fit-content;
     display: flex;
     justify-content: center;
 
@@ -164,4 +165,51 @@ border: none;
     justify-content: center;
     gap: 15px;
     margin: 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.liens {
+    font-size: 15px;
+    
+}
+.info-galerie, .presentation-galerie {
+    flex-direction: column;
+    gap: 25px;
+}
+.info-galerie-left, .info-galerie-right, .photo-galerie, .texte-galerie{
+    width: 100%;
+}
+.photos-oeuvres {
+    padding: 50px;
+    flex-direction: column;
+}
+.vignette{
+    width: 100%;
+}
+.presentation-dechewsky-photo {
+    flex-direction: column;
+    gap: 15px;
+} 
+.photo-dechewsky, .presentation-dechewsky{
+    width: 100%;
+}
+.mail, .inscription{
+width: 90%;
+}
+.infos-contact{
+    flex-direction: column;
+
+}
+
+.infos-contact p{
+    width: 100%;
+    text-align: center;
+}
 }
